@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
            //Camera.open();
        }*/
        System.out.println("afeter if");
+       System.out.println("Before if");
         intentIntegrator.setPrompt("Scan a barcode or QR Code");
 intentIntegrator.addExtra("SCAN_CAMERA_ID", getFrontCameraId());
         intentIntegrator.setTorchEnabled(true);
